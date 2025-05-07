@@ -1,12 +1,12 @@
 body {
-  background: #c2ded1;
+  background: pink;
   font-family: "Nunito", sans-serif;
 }
 
 #navbar {
   font-size: 1.5rem;
   font-weight: 100;
-  background-color: #c2ded1;
+  background-color: pink;
 }
 
 #navbar .nav-link {
@@ -22,7 +22,7 @@ body {
 }
 
 .navbar.scrolled {
-  background-color: #c2ded1;
+  background-color: pink;
   transition: background 500ms;
 }
 
