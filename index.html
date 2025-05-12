@@ -40,6 +40,14 @@
             >
             <a class="nav-link" href="#about">Cantik</a>
             <a class="nav-link" href="#ticket">Pretty</a>
+            <a class="nav-link">
+              <audio controls autoplay>
+                <source
+                  src="Nuh... - Teruntuk Mia (Official Lyric Video).mp3"
+                  type="audio/mpeg"
+                />
+              </audio>
+            </a>
           </div>
         </div>
       </div>
@@ -123,18 +131,46 @@
                 a bitch Some days I'm strong, some days I quit I don't let it
                 show but I've been through some shit
               </p>
-              <audio controls>
+
+              <!-- <audio controls autoplay>
                 <source
                   src="Maggie Lindemann - Pretty Girl [Official Music Video].mp3"
                   type="audio/mpeg"
                 />
-              </audio>
+              </audio> -->
+              <!-- <button id="playAudio">Play Song</button>
+              <audio
+                id="prettySong"
+                src="Maggie Lindemann - Pretty Girl [Official Music Video].mp3"
+                type="audio/mpeg"
+                controls
+              ></audio> -->
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- <script>
+      let hasPlayed = false;
+
+      window.addEventListener("scroll", function () {
+        if (!hasPlayed) {
+          const audio = document.getElementById("prettySong");
+          const playPromise = audio.play();
+
+          if (playPromise !== undefined) {
+            playPromise
+              .then(() => {
+                hasPlayed = true; // Mencegah pemutaran ulang
+              })
+              .catch((error) => {
+                console.log("Autoplay gagal: ", error);
+              });
+          }
+        }
+      });
+    </script> -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
